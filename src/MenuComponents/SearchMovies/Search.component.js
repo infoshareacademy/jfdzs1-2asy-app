@@ -4,7 +4,7 @@ import React, { PureComponent } from 'react';
 class Search extends PureComponent {
     render() {
         return(
-            <div className="Menu-components">
+            <div className="menu-components">
                 <h2>Search Movies</h2>
             </div>
         )
