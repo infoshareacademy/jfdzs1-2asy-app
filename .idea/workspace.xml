@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9600dab-8688-49ae-babb-afae043ac773" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.c17080f1.css" afterPath="$PROJECT_DIR$/build/static/css/main.c17080f1.css" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.ee7b2412.js" afterPath="$PROJECT_DIR$/build/static/js/main.ee7b2412.js" />
-      <change beforePath="$PROJECT_DIR$/src/Home.css" afterPath="$PROJECT_DIR$/src/Home.css" />
-      <change beforePath="$PROJECT_DIR$/src/Home.js" afterPath="$PROJECT_DIR$/src/Home.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/FavMenu/FavMenu.component.js" afterPath="$PROJECT_DIR$/src/Components/FavMenu/FavMenu.component.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/FavMenu/FavMenu.style.css" afterPath="$PROJECT_DIR$/src/Components/FavMenu/FavMenu.style.css" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/FavMovies/FavMovies.component.js" afterPath="$PROJECT_DIR$/src/Components/FavMovies/FavMovies.component.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/FavMovies/FavMovies.style.css" afterPath="$PROJECT_DIR$/src/Components/FavMovies/FavMovies.style.css" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.components.js" afterPath="$PROJECT_DIR$/src/Components/PopularMenu/PopularMenu.components.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.style.css" afterPath="$PROJECT_DIR$/src/Components/PopularMenu/PopularMenu.style.css" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/PopularMovies/PopularMovies.components.js" afterPath="$PROJECT_DIR$/src/Components/PopularMovies/PopularMovies.components.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/PopularMovies/PopularMovies.style.css" afterPath="$PROJECT_DIR$/src/Components/PopularMovies/PopularMovies.style.css" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.component.js" afterPath="$PROJECT_DIR$/src/Components/SearchMenu/Search.component.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.style.css" afterPath="$PROJECT_DIR$/src/Components/SearchMovies/Search.style.css" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/SearchMovies/Search.component.js" afterPath="$PROJECT_DIR$/src/Components/SearchMovies/Search.component.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/SearchMovies/Search.style.css" afterPath="$PROJECT_DIR$/src/Components/SearchMenu/Search.style.css" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.component.js" afterPath="$PROJECT_DIR$/src/Components/WorstMenu/WorstMenu.component.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.style.css" afterPath="$PROJECT_DIR$/src/Components/WorstMenu/WorstMenu.style.css" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/WorstMovies/WorstMovies.component.js" afterPath="$PROJECT_DIR$/src/Components/WorstMovies/WorstMovies.component.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/WorstMovies/WorstMovies.style.css" afterPath="$PROJECT_DIR$/src/Components/WorstMovies/WorstMovies.style.css" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AppBar/AppBar.component.js" afterPath="$PROJECT_DIR$/src/Components/AppBar/AppBar.component.js" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,20 +20,20 @@
       <file leaf-file-name="AppBar.component.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/AppBar/AppBar.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Home.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,9 +79,10 @@
         <option value="$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.components.js" />
         <option value="$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.component.js" />
         <option value="$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.component.js" />
-        <option value="$PROJECT_DIR$/src/Components/AppBar/AppBar.component.js" />
         <option value="$PROJECT_DIR$/src/Home.js" />
         <option value="$PROJECT_DIR$/src/Home.css" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/Components/AppBar/AppBar.component.js" />
       </list>
     </option>
   </component>
@@ -227,15 +207,16 @@
       <workItem from="1519561767170" duration="136000" />
       <workItem from="1520665607558" duration="7000" />
       <workItem from="1520665629107" duration="681000" />
-      <workItem from="1521117338801" duration="1475000" />
+      <workItem from="1521117338801" duration="2221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3899000" />
+    <option name="totallyTimeSpent" value="4645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="983" y="24" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -246,7 +227,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -354,7 +335,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -372,16 +353,6 @@
         <state relative-caret-position="133">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,14 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -521,14 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/AppBar/AppBar.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Home.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -537,12 +492,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AppBar/AppBar.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
