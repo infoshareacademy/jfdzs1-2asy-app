@@ -1,12 +1,16 @@
-import React, { PureComponent } from 'react';
+import React, {PureComponent} from 'react';
+// import {Link} from 'react-router-dom;';
+import AppBar from 'material-ui/AppBar';
 
-class AppBar extends PureComponent {
+class Navigation extends PureComponent {
     render() {
-        return(
-            <div>
-            </div>
+        return (
+            <AppBar
+                title="Title"
+                iconClassNameRight="muidocs-icon-navigation-expand-more"
+            />
         )
     }
 }
 
-export default AppBar;
+export default Navigation;
