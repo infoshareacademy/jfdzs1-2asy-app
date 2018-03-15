@@ -9,12 +9,12 @@ ReactDOM.render(
     <BrowserRouter>
         <div>
             <Route exact path='/' component={Home}/>
-            {/*<Route path='/' component={Home}/>*/}
-            {/*<Route path='/' component={Home}/>*/}
-            {/*<Route path='/' component={Home}/>*/}
-            {/*<Route path='/' component={Home}/>*/}
-            {/*<Route path='/' component={Home}/>*/}
-            {/*<Route path='/' component={Home}/>*/}
+            <Route path='/' component={Home}/>
+            <Route path='/' component={Home}/>
+            <Route path='/' component={Home}/>
+            <Route path='/' component={Home}/>
+            <Route path='/' component={Home}/>
+            <Route path='/' component={Home}/>
         </div>
     </BrowserRouter>,
     document.getElementById('root'));
