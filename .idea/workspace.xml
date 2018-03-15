@@ -3,10 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="d9600dab-8688-49ae-babb-afae043ac773" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/FavMenu/FavMenu.component.js" afterPath="$PROJECT_DIR$/src/MenuComponents/FavMenu/FavMenu.component.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.components.js" afterPath="$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.components.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.component.js" afterPath="$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.component.js" />
-      <change beforePath="$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.component.js" afterPath="$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.component.js" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.c17080f1.css" afterPath="$PROJECT_DIR$/build/static/css/main.c17080f1.css" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.ee7b2412.js" afterPath="$PROJECT_DIR$/build/static/js/main.ee7b2412.js" />
+      <change beforePath="$PROJECT_DIR$/src/Home.css" afterPath="$PROJECT_DIR$/src/Home.css" />
+      <change beforePath="$PROJECT_DIR$/src/Home.js" afterPath="$PROJECT_DIR$/src/Home.js" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/FavMenu/FavMenu.component.js" afterPath="$PROJECT_DIR$/src/Components/FavMenu/FavMenu.component.js" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/FavMenu/FavMenu.style.css" afterPath="$PROJECT_DIR$/src/Components/FavMenu/FavMenu.style.css" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/FavMovies/FavMovies.component.js" afterPath="$PROJECT_DIR$/src/Components/FavMovies/FavMovies.component.js" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/FavMovies/FavMovies.style.css" afterPath="$PROJECT_DIR$/src/Components/FavMovies/FavMovies.style.css" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.components.js" afterPath="$PROJECT_DIR$/src/Components/PopularMenu/PopularMenu.components.js" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.style.css" afterPath="$PROJECT_DIR$/src/Components/PopularMenu/PopularMenu.style.css" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/PopularMovies/PopularMovies.components.js" afterPath="$PROJECT_DIR$/src/Components/PopularMovies/PopularMovies.components.js" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/PopularMovies/PopularMovies.style.css" afterPath="$PROJECT_DIR$/src/Components/PopularMovies/PopularMovies.style.css" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.component.js" afterPath="$PROJECT_DIR$/src/Components/SearchMenu/Search.component.js" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.style.css" afterPath="$PROJECT_DIR$/src/Components/SearchMovies/Search.style.css" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/SearchMovies/Search.component.js" afterPath="$PROJECT_DIR$/src/Components/SearchMovies/Search.component.js" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/SearchMovies/Search.style.css" afterPath="$PROJECT_DIR$/src/Components/SearchMenu/Search.style.css" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.component.js" afterPath="$PROJECT_DIR$/src/Components/WorstMenu/WorstMenu.component.js" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.style.css" afterPath="$PROJECT_DIR$/src/Components/WorstMenu/WorstMenu.style.css" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/WorstMovies/WorstMovies.component.js" afterPath="$PROJECT_DIR$/src/Components/WorstMovies/WorstMovies.component.js" />
+      <change beforePath="$PROJECT_DIR$/src/MenuComponents/WorstMovies/WorstMovies.style.css" afterPath="$PROJECT_DIR$/src/Components/WorstMovies/WorstMovies.style.css" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +37,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AppBar.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/AppBar/AppBar.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,6 +100,9 @@
         <option value="$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.components.js" />
         <option value="$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.component.js" />
         <option value="$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.component.js" />
+        <option value="$PROJECT_DIR$/src/Components/AppBar/AppBar.component.js" />
+        <option value="$PROJECT_DIR$/src/Home.js" />
+        <option value="$PROJECT_DIR$/src/Home.css" />
       </list>
     </option>
   </component>
@@ -103,35 +157,21 @@
               <item name="jfdzs1-2asy-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="jfdzs1-2asy-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jfdzs1-2asy-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="jfdzs1-2asy-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfdzs1-2asy-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfdzs1-2asy-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="FavMenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jfdzs1-2asy-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jfdzs1-2asy-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="PopularMenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jfdzs1-2asy-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jfdzs1-2asy-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchMenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jfdzs1-2asy-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jfdzs1-2asy-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="WorstMenu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,6 +189,9 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/AppBar" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/MenuComponents/WorstMenu" />
       <recent name="$PROJECT_DIR$/src/MenuComponents/SearchMenu" />
@@ -184,12 +227,12 @@
       <workItem from="1519561767170" duration="136000" />
       <workItem from="1520665607558" duration="7000" />
       <workItem from="1520665629107" duration="681000" />
-      <workItem from="1521117338801" duration="141000" />
+      <workItem from="1521117338801" duration="1475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2565000" />
+    <option name="totallyTimeSpent" value="3899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="983" y="24" width="1922" height="1092" extended-state="6" />
@@ -198,6 +241,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -210,7 +254,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -233,7 +276,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.components.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/PopularMenu/PopularMenu.components.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -241,7 +284,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.component.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/WorstMenu/WorstMenu.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -249,7 +292,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/FavMenu/FavMenu.style.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/FavMenu/FavMenu.style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -257,7 +300,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.style.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/PopularMenu/PopularMenu.style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -265,7 +308,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.style.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/SearchMenu/Search.style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -273,7 +316,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.style.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/WorstMenu/WorstMenu.style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -281,7 +324,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.component.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/SearchMenu/Search.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -289,7 +332,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/FavMenu/FavMenu.component.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/FavMenu/FavMenu.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
@@ -305,11 +348,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/src/Home.js" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -333,10 +379,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -385,7 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/FavMenu/FavMenu.component.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/FavMenu/FavMenu.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -401,7 +449,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.components.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/PopularMenu/PopularMenu.components.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -409,7 +457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.component.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/WorstMenu/WorstMenu.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -417,7 +465,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/FavMenu/FavMenu.style.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/FavMenu/FavMenu.style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -425,7 +473,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/PopularMenu/PopularMenu.style.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/PopularMenu/PopularMenu.style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -433,7 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.style.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/SearchMenu/Search.style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -441,19 +489,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/WorstMenu/WorstMenu.style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuComponents/SearchMenu/Search.component.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/SearchMenu/Search.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/WorstMenu/WorstMenu.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AppBar/AppBar.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AppBar/AppBar.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
