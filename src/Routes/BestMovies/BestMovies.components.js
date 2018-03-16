@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 
-
 class PopularMenu extends PureComponent {
     render() {
         return(

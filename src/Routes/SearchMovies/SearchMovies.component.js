@@ -1,14 +1,13 @@
 import React, { PureComponent } from 'react';
 
-
-class FavoriteMovies extends PureComponent {
+class Search extends PureComponent {
     render() {
         return(
             <div className="Menu-components">
-                <h2>Favourite Movies</h2>
+                <h2>Search Movies</h2>
             </div>
         )
     }
 }
 
-export default FavoriteMovies;
+export default Search;

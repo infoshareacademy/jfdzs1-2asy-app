@@ -4,10 +4,10 @@ import { BrowserRouter, Route } from 'react-router-dom'
 import './index.css';
 import Home from './Home';
 import registerServiceWorker from './registerServiceWorker';
-import FavoriteMovies from "./Components/FavoriteMovies/FavoriteMovies.component";
-import SearchMovies from "./Components/SearchMovies/SearchMovies.component";
-import BestMovies from "./Components/BestMovies/BestMovies.components";
-import WorstMovies from "./Components/WorstMovies/WorstMovies.component";
+import FavoriteMovies from "./Routes/FavoriteMovies/FavoriteMovies.component";
+import SearchMovies from "./Routes/SearchMovies/SearchMovies.component";
+import BestMovies from "./Routes/BestMovies/BestMovies.components";
+import WorstMovies from "./Routes/WorstMovies/WorstMovies.component";
 
 ReactDOM.render(
     <BrowserRouter>
