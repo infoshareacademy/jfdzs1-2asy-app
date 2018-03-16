@@ -1,14 +1,14 @@
 import React, { PureComponent } from 'react';
 
 
-class WorstMovies extends PureComponent {
+class WorstMenu extends PureComponent {
     render() {
         return(
-            <div className="menu-components">
+            <div className="Menu-components">
                 <h2>Worst Movies</h2>
             </div>
         )
     }
 }
 
-export default WorstMovies;
+export default WorstMenu;
