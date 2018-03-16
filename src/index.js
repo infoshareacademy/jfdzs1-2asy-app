@@ -4,19 +4,19 @@ import { BrowserRouter, Route } from 'react-router-dom'
 import './index.css';
 import Home from './Home';
 import registerServiceWorker from './registerServiceWorker';
-import FavMenu from "./Components/FavMenu/FavMenu.component";
-import Search from "./Components/SearchMenu/Search.component";
-import PopularMenu from "./Components/PopularMenu/PopularMenu.components";
-import WorstMenu from "./Components/WorstMenu/WorstMenu.component";
+import FavoriteMovies from "./Components/FavoriteMovies/FavoriteMovies.component";
+import SearchMovies from "./Components/SearchMovies/SearchMovies.component";
+import BestMovies from "./Components/BestMovies/BestMovies.components";
+import WorstMovies from "./Components/WorstMovies/WorstMovies.component";
 
 ReactDOM.render(
     <BrowserRouter>
         <div>
             <Route exact path='/' component={Home}/>
-            <Route path='/favorite' component={FavMenu}/>
-            <Route path='/search' component={Search}/>
-            <Route path='/popular' component={PopularMenu}/>
-            <Route path='/worst' component={WorstMenu}/>
+            <Route path='/favorite' component={FavoriteMovies}/>
+            <Route path='/search' component={SearchMovies}/>
+            <Route path='/popular' component={BestMovies}/>
+            <Route path='/worst' component={WorstMovies}/>
         </div>
     </BrowserRouter>,
     document.getElementById('root'));

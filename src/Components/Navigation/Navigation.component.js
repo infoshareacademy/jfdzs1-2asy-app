@@ -6,7 +6,7 @@ class Navigation extends PureComponent {
     render() {
         return (
             <AppBar
-                title="Title"
+                title="GitFilm"
                 iconClassNameRight="muidocs-icon-navigation-expand-more"
             />
         )

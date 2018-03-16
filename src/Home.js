@@ -1,6 +1,6 @@
 import React, {PureComponent} from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import AppBar from './Components/AppBar/AppBar.component';
+import Navigation from './Components/Navigation/Navigation.component';
 import './Home.css';
 
 class Home extends PureComponent {
@@ -8,9 +8,9 @@ class Home extends PureComponent {
         return (
             <MuiThemeProvider>
                 <div className="Home">
-                    <AppBar/>
+                    <Navigation/>
                     <header className="Home-header">
-                        <h1 className="Home-title">GitFilm</h1>
+                        <h1 className="Home-title">Dashboard</h1>
                     </header>
                 </div>
             </MuiThemeProvider>
