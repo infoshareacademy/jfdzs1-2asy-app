@@ -15,7 +15,7 @@ ReactDOM.render(
             <Route exact path='/' component={Home}/>
             <Route path='/favorite' component={FavoriteMovies}/>
             <Route path='/search' component={SearchMovies}/>
-            <Route path='/popular' component={BestMovies}/>
+            <Route path='/best' component={BestMovies}/>
             <Route path='/worst' component={WorstMovies}/>
         </div>
     </BrowserRouter>,
