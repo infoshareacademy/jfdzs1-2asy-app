@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 
-class PopularMenu extends PureComponent {
+class BestMovies extends PureComponent {
     render() {
         return(
             <div className="Menu-components">
@@ -10,4 +10,4 @@ class PopularMenu extends PureComponent {
     }
 }
 
-export default PopularMenu;
+export default BestMovies;

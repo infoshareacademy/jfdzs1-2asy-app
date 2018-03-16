@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 
-class Search extends PureComponent {
+class SearchMovies extends PureComponent {
     render() {
         return(
             <div className="Menu-components">
@@ -10,4 +10,4 @@ class Search extends PureComponent {
     }
 }
 
-export default Search;
+export default SearchMovies;
