@@ -1,13 +1,13 @@
 import React, { PureComponent } from 'react';
 
-class FavouriteMovies extends PureComponent {
+class Dashboard extends PureComponent {
     render() {
         return(
             <div>
-                <h2>Favourite Movies</h2>
+                <h2>Dashboard</h2>
             </div>
         )
     }
 }
 
-export default FavouriteMovies;
+export default Dashboard;
