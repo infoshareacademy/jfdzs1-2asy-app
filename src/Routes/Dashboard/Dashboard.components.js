@@ -11,9 +11,10 @@ const style = {
 
 const Dashboard = () => (
     <div>
-        <Paper style={style} zDepth={1} />
-        <Paper style={style} zDepth={2} />
-        <Paper style={style} zDepth={3} />
+        <Paper style={style} zDepth={1}><h2>Wyszukiwarka</h2></Paper>
+        <Paper style={style} zDepth={1}><h2>Najlepsze</h2></Paper>
+        <Paper style={style} zDepth={1}><h2>Najgorsze</h2></Paper>
+        <Paper style={style} zDepth={1}><h2>Ulubione</h2></Paper>
     </div>
 );
 
