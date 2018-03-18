@@ -17,16 +17,15 @@ class Navigation extends PureComponent {
         return (
             <AppBar
                 title="GitFilm"
-                children={<Drawer
-
+                onLeftIconButtonClick={this.handleToggle}>
+                <Drawer
                     docked={false}
                     width={200}
                     open={this.state.open}
                     onRequestChange={(open) => this.setState({open})}>
-
-                    <Menu/></Drawer>}
-                onLeftIconButtonClick={this.handleToggle}
-            />
+                    <Menu/>
+                </Drawer>
+            </AppBar>
         )
     }
 }
