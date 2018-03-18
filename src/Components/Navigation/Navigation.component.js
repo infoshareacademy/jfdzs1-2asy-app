@@ -22,7 +22,7 @@ class Navigation extends PureComponent {
                     docked={false}
                     width={200}
                     open={this.state.open}
-                    onRequestChange={(open) => this.setState({open})}>
+                    onRequestChange={this.handleToggle}>
                     <Menu/>
                 </Drawer>
             </AppBar>
