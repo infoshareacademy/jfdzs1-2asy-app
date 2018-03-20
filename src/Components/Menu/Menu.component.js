@@ -7,11 +7,11 @@ class Menu extends React.Component {
     render() {
         return (
             <div>
-                <MenuItem containerElement={<Link to="/dashboard" />}>Dashboard</MenuItem>
-                <MenuItem containerElement={<Link to="/search" />}>Wyszukiwarka</MenuItem>
-                <MenuItem containerElement={<Link to="/favourite" />}>Ulubione</MenuItem>
-                <MenuItem containerElement={<Link to="/best" />}>100 najlepszych</MenuItem>
-                <MenuItem containerElement={<Link to="/worst" />}>100 najgorszych</MenuItem>
+                <MenuItem onClick={this.props.onClick} containerElement={<Link to="/" />}>Dashboard</MenuItem>
+                <MenuItem onClick={this.props.onClick} containerElement={<Link to="/search" />}>Wyszukiwarka</MenuItem>
+                <MenuItem onClick={this.props.onClick} containerElement={<Link to="/favourite" />}>Ulubione</MenuItem>
+                <MenuItem onClick={this.props.onClick} containerElement={<Link to="/best" />}>100 najlepszych</MenuItem>
+                <MenuItem onClick={this.props.onClick} containerElement={<Link to="/worst" />}>100 najgorszych</MenuItem>
             </div>
         );
     }
