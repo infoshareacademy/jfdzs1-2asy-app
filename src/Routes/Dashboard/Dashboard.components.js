@@ -1,20 +1,30 @@
 import React from 'react';
-import Paper from 'material-ui/Paper';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 
-const style = {
-    height: 200,
-    width: 200,
-    margin: 20,
-    textAlign: 'center',
-    display: 'inline-block',
-};
+import './Dashboard.style.css'
 
 const Dashboard = () => (
     <div>
-        <Paper style={style} zDepth={1}><h2>Wyszukiwarka</h2></Paper>
-        <Paper style={style} zDepth={1}><h2>Najlepsze</h2></Paper>
-        <Paper style={style} zDepth={1}><h2>Najgorsze</h2></Paper>
-        <Paper style={style} zDepth={1}><h2>Ulubione</h2></Paper>
+        <Grid fluid>
+            <Row>
+                <Col md={6} lg={3}>
+                    <img src={`${process.env.PUBLIC_URL}/Images/search.jpg`} alt="" className="img-function"/>
+                    <span>Wyszukiwarka</span>
+                </Col>
+                <Col md={6} lg={3}>
+                    <img src={`${process.env.PUBLIC_URL}/Images/best.jpg`} alt="" className="img-function"/>
+                    <span>Najlepsze</span>
+                </Col>
+                <Col md={6} lg={3}>
+                    <img src={`${process.env.PUBLIC_URL}/Images/worst.jpg`} alt="" className="img-function"/>
+                    <span>Najgorsze</span>
+                </Col>
+                <Col md={6} lg={3}>
+                    <img src={`${process.env.PUBLIC_URL}/Images/favourite.jpg`} alt="" className="img-function"/>
+                    <span>Ulubione</span>
+                </Col>
+            </Row>
+        </Grid>
     </div>
 );
 
