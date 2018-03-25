@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Link } from 'react-router-dom';
 
 import './Dashboard.style.css'
 
@@ -8,20 +9,20 @@ const Dashboard = () => (
         <Grid fluid>
             <Row>
                 <Col md={6} lg={3}>
-                    <img src={`${process.env.PUBLIC_URL}/Images/search.jpg`} alt="" className="img-function"/>
-                    <span>Wyszukiwarka</span>
+                    <Link to='/search'><img src={`${process.env.PUBLIC_URL}/Images/search.jpg`} alt="" className="img-function"/></Link>
+                    <Link to='/search'><span>Wyszukiwarka</span></Link>
                 </Col>
                 <Col md={6} lg={3}>
-                    <img src={`${process.env.PUBLIC_URL}/Images/best.jpg`} alt="" className="img-function"/>
-                    <span>Najlepsze</span>
+                    <Link to='/best'><img src={`${process.env.PUBLIC_URL}/Images/best.jpg`} alt="" className="img-function"/></Link>
+                    <Link to='/best'><span>Najlepsze</span></Link>
                 </Col>
                 <Col md={6} lg={3}>
-                    <img src={`${process.env.PUBLIC_URL}/Images/worst.jpg`} alt="" className="img-function"/>
-                    <span>Najgorsze</span>
+                    <Link to='/worst'><img src={`${process.env.PUBLIC_URL}/Images/worst.jpg`} alt="" className="img-function"/></Link>
+                    <Link to='/worst'><span>Najgorsze</span></Link>
                 </Col>
                 <Col md={6} lg={3}>
-                    <img src={`${process.env.PUBLIC_URL}/Images/favourite.jpg`} alt="" className="img-function"/>
-                    <span>Ulubione</span>
+                    <Link to='/favourite'><img src={`${process.env.PUBLIC_URL}/Images/favourite.jpg`} alt="" className="img-function"/></Link>
+                    <Link to='/favourite'><span>Ulubione</span></Link>
                 </Col>
             </Row>
         </Grid>
