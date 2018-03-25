@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import { Link } from 'react-router-dom';
+import { TwoLevelPieChart, SameDataComposedChart } from "./Charts.component";
 
 import './Dashboard.style.css'
 
@@ -24,6 +25,10 @@ const Dashboard = () => (
                     <Link to='/favourite'><img src={`${process.env.PUBLIC_URL}/Images/favourite.jpg`} alt="" className="img-function"/></Link>
                     <Link to='/favourite'><span>Ulubione</span></Link>
                 </Col>
+            </Row>
+            <Row>
+                <TwoLevelPieChart/>
+                <SameDataComposedChart/>
             </Row>
         </Grid>
     </div>
