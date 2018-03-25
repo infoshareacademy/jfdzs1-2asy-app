@@ -24,15 +24,15 @@ class BestMovies extends PureComponent {
         return(
             <div>
                 <h2>Best Movies</h2>
-                    <FetchForm onClick={this.fetchData} />
-                        <div>
-                            {fetchedItems.map(({thumbnail, name, rating}) => (
-                                <ItemsList key={thumbnail}
-                                           thumbnail={thumbnail}
-                                           name={name}
-                                           rating={rating} />
-                            ))}
-                        </div>
+                <FetchForm onClick={this.fetchData} />
+                <div>
+                    {fetchedItems.map(({thumbnail, name, rating}) => (
+                        <ItemsList key={thumbnail}
+                                   thumbnail={thumbnail}
+                                   name={name}
+                                   rating={rating} />
+                    ))}
+                </div>
             </div>
         )
     }
