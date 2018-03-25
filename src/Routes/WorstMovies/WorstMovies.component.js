@@ -25,14 +25,14 @@ class WorstMovies extends PureComponent {
         return(
             <div>
                 <h2>Worst Movies</h2>
-                <FetchForm onClick={this.fetchData} />
-                <div>
-				{fetchedItems.map(({thumbnail, name, rating}) => (
-					<ItemsList key={thumbnail} thumbnail={thumbnail}
-							   name={name}
-							   rating={rating} />  
-				))}
-			    </div>
+                    <FetchForm onClick={this.fetchData} />
+                        <div>
+                            {fetchedItems.map(({thumbnail, name, rating}) => (
+                                <ItemsList key={thumbnail} thumbnail={thumbnail}
+                                       name={name}
+                                       rating={rating} />
+                        ))}
+                        </div>
             </div>
         )
     }

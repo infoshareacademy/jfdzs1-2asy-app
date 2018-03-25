@@ -17,23 +17,23 @@ class BestMovies extends PureComponent {
         .then(Object.values)
         .then(fetchedItems => {
             this.setState({
-                fetchedItems,
+                fetchedItems
             })
         })
-    }
+    };
     render() {
         const { fetchedItems } = this.state
         return(
             <div>
                 <h2>Best Movies</h2>
-                <FetchForm onClick={this.fetchData} />
-                <div>
-				{fetchedItems.map(({thumbnail, name, rating}) => (
-					<ItemsList key={thumbnail} thumbnail={thumbnail}
-							   name={name}
-							   rating={rating} />  
-				))}
-			    </div>
+                    <FetchForm onClick={this.fetchData} />
+                        <div>
+                            {fetchedItems.map(({thumbnail, name, rating}) => (
+                                <ItemsList key={thumbnail} thumbnail={thumbnail}
+                                           name={name}
+                                           rating={rating} />
+                            ))}
+                        </div>
             </div>
         )
     }
