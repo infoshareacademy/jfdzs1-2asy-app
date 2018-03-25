@@ -1,15 +1,13 @@
 import React, { PureComponent } from 'react';
 import FetchForm from '../../Components/FetchForm';
 import ItemsList from '../../Components/ItemList';
-
 import './BestMovies.style.css';
 
 const url = 'https://gitfilm-675bb.firebaseio.com/asy-app.json'
 class BestMovies extends PureComponent {
-
     state = {
         fetchedItems: []
-    }
+    };
 
     fetchData = (fetchItems) => {
         fetch(url)
@@ -29,7 +27,8 @@ class BestMovies extends PureComponent {
                     <FetchForm onClick={this.fetchData} />
                         <div>
                             {fetchedItems.map(({thumbnail, name, rating}) => (
-                                <ItemsList key={thumbnail} thumbnail={thumbnail}
+                                <ItemsList key={thumbnail}
+                                           thumbnail={thumbnail}
                                            name={name}
                                            rating={rating} />
                             ))}

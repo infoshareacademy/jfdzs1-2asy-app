@@ -5,10 +5,9 @@ import './WorstMovies.style.css';
 
 const url = 'https://gitfilm-675bb.firebaseio.com/asy-app.json'
 class WorstMovies extends PureComponent {
-
     state = {
         fetchedItems: []
-    }
+    };
 
     fetchData = (fetchItems) => {
         fetch(url)
@@ -19,7 +18,7 @@ class WorstMovies extends PureComponent {
                 fetchedItems,
             })
         })
-    }
+    };
     render() {
         const { fetchedItems } = this.state
         return(
@@ -28,9 +27,10 @@ class WorstMovies extends PureComponent {
                     <FetchForm onClick={this.fetchData} />
                         <div>
                             {fetchedItems.map(({thumbnail, name, rating}) => (
-                                <ItemsList key={thumbnail} thumbnail={thumbnail}
-                                       name={name}
-                                       rating={rating} />
+                                <ItemsList key={thumbnail}
+                                           thumbnail={thumbnail}
+                                           name={name}
+                                           rating={rating} />
                         ))}
                         </div>
             </div>
