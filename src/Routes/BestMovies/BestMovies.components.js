@@ -1,38 +1,65 @@
 import React, { PureComponent } from 'react';
-import FetchForm from '../../Components/FetchForm';
 import ItemsList from '../../Components/ItemList';
-
 import './BestMovies.style.css';
 
 const url = 'https://gitfilm-675bb.firebaseio.com/asy-app.json'
+
 class BestMovies extends PureComponent {
 
-    state = {
-        fetchedItems: []
+    constructor(props) {
+        super(props);
+        this.state = {
+            error: null,
+            isLoaded: false,
+            items: []
+        };
     }
 
-    fetchData = (fetchItems) => {
+    componentWillMount() {
         fetch(url)
-        .then(response => response.json())
-        .then(Object.values)
-        .then(fetchedItems => {
-            this.setState({
-                fetchedItems,
-            })
-        })
+            .then(res => res.json())
+            .then(
+                (result) => {
+                    console.log('result');
+                    this.setState({
+                        isLoaded: true,
+                        items: result
+                    });
+                    console.log(this.state);
+                },
+                (error) => {
+                    this.setState({
+                        isLoaded: true,
+                        error
+                    });
+                }
+            )
     }
+
+    renderBody = () => {
+        const {error, isLoaded, items} = this.state;
+        if (error) {
+            return <div> Error: {error.message}</div>;
+        } else if (!isLoaded) {
+            return <div>Loading... </div>;
+        } else {
+
+            return (
+                <ItemsList />
+            );
+        }
+    };
+
+//
     render() {
-        const { fetchedItems } = this.state
+        const state = this.state
         return(
             <div>
                 <h2>Best Movies</h2>
-                <FetchForm onClick={this.fetchData} />
                 <div>
-				{fetchedItems.map(({thumbnail, name, rating}) => (
-					<ItemsList key={thumbnail} thumbnail={thumbnail}
-							   name={name}
-							   rating={rating} />  
-				))}
+                    {this.renderBody()}
+                    {console.log(state)}
+
 			    </div>
             </div>
         )
