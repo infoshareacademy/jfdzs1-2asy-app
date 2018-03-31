@@ -4,6 +4,7 @@ import './BestMovies.style.css';
 
 const url = 'https://gitfilm-675bb.firebaseio.com/asy-app.json'
 
+
 class BestMovies extends PureComponent {
 
     constructor(props) {
@@ -25,7 +26,7 @@ class BestMovies extends PureComponent {
                         isLoaded: true,
                         items: result
                     });
-                    console.log(this.state);
+                    console.log(this.state.items);
                 },
                 (error) => {
                     this.setState({
@@ -36,6 +37,7 @@ class BestMovies extends PureComponent {
             )
     }
 
+
     renderBody = () => {
         const {error, isLoaded, items} = this.state;
         if (error) {
@@ -45,22 +47,17 @@ class BestMovies extends PureComponent {
         } else {
 
             return (
-                <ItemsList />
+                <ItemsList items={items} />
             );
         }
     };
 
 //
     render() {
-        const state = this.state
         return(
             <div>
                 <h2>Best Movies</h2>
-                <div>
-                    {this.renderBody()}
-                    {console.log(state)}
-
-			    </div>
+                {this.renderBody()}
             </div>
         )
     }

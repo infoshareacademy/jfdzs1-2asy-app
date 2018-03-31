@@ -36,7 +36,7 @@ class WorstMovies extends PureComponent {
     }
 
     renderBody = () => {
-        const {error, isLoaded, items} = this.state;
+        const {error, isLoaded} = this.state;
         if (error) {
             return <div> Error: {error.message}</div>;
         } else if (!isLoaded) {
@@ -44,7 +44,7 @@ class WorstMovies extends PureComponent {
         } else {
 
             return (
-                <ItemsList />
+                <ItemsList items = {this.state.items} />
             );
         }
     };
