@@ -15,5 +15,5 @@ yarn-error.log*
 
 .idea
 *.iml
-
+.vscode
 
