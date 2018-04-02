@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import ItemsList from '../../Components/ItemList';
 import './BestMovies.style.css';
+import { sortByBestRatingValue } from "../../utils";
 
 const url = 'https://gitfilm-api.firebaseio.com/movies.json'
 class BestMovies extends PureComponent {
@@ -32,6 +33,7 @@ class BestMovies extends PureComponent {
             )
     }
 
+
     renderBody = () => {
         const {error, isLoaded, items} = this.state;
         if (error) {
@@ -39,6 +41,8 @@ class BestMovies extends PureComponent {
         } else if (!isLoaded) {
             return <div>Loading... </div>;
         } else {
+            items.sort(sortByBestRatingValue)
+            this.state.items.splice(10, (items.length + 10))
             return (
                 <ItemsList items={items}/>
             );
