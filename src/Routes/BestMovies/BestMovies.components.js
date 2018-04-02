@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import ItemsList from '../../Components/ItemList';
 import './BestMovies.style.css';
 
-const url = 'https://gitfilm-675bb.firebaseio.com/asy-app.json'
+const url = 'https://gitfilm-api.firebaseio.com/movies.json'
 class BestMovies extends PureComponent {
     constructor(props) {
         super(props);

@@ -5,14 +5,15 @@ class ItemsList extends Component {
         return (
             <div>
             {this.props.items.map(item => (
-                <div key={item.name}>
-                    <div><h4>Tytuł: {item.name}</h4></div>
+                <div key={item.Title}>
+                    <div><h4>Tytuł: {item.Title}</h4></div>
                     <div>
-                        {item.thumbnail ? <img src={item.thumbnail} alt="" /> :
+                        {item.Poster ? <img src={item.Poster} alt="" /> :
                             <span>NO IMAGE</span>
                         }
                     </div>
-                    <div><h4>Rating: {item.rating}</h4></div>
+                    <div><h4>Imdb Rating: {item.imdbRating}</h4></div>
+                    <div><h4>Imdb Votes: {item.imdbVotes}</h4></div><br />
                 </div>
             ))}
             </div>
