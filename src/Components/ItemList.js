@@ -16,6 +16,9 @@ class ItemsList extends Component {
                     </div>
                     <div><h4>Imdb Rating: {item.imdbRating}</h4></div>
                     <div><h4>Imdb Votes: {item.imdbVotes}</h4></div>
+                    {/*<div>{item.Ratings.map(i => (*/}
+                        {/*console.log(i)*/}
+                    {/*))}</div>*/}
                     {/*//TODO - ADD ROTTEN TOMATOES*/}
                     <div><h4>Metacritic: {item.Metascore}</h4></div><br />
                 </div>

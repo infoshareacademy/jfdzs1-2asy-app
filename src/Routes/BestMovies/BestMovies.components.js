@@ -22,7 +22,7 @@ class BestMovies extends PureComponent {
                     this.setState({
                         isLoaded: true,
                         items: result
-                    });
+                    })
                 },
                 (error) => {
                     this.setState({
@@ -43,6 +43,7 @@ class BestMovies extends PureComponent {
         } else {
             items.sort(sortByBestRatingValue)
             this.state.items.splice(10, (items.length + 10))
+            console.log(this.state.items)
             return (
                 <ItemsList items={items}/>
             );
