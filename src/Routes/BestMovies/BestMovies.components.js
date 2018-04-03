@@ -1,38 +1,61 @@
 import React, { PureComponent } from 'react';
-import FetchForm from '../../Components/FetchForm';
 import ItemsList from '../../Components/ItemList';
 import './BestMovies.style.css';
+import { sortByBestRatingValue } from "../../utils";
 
-const url = 'https://gitfilm-675bb.firebaseio.com/asy-app.json'
+const url = 'https://gitfilm-api.firebaseio.com/movies.json'
 class BestMovies extends PureComponent {
-    state = {
-        fetchedItems: []
+    constructor(props) {
+        super(props);
+        this.state = {
+            error: null,
+            isLoaded: false,
+            items: []
+        };
+    }
+    componentWillMount() {
+        fetch(url)
+            .then(res => res.json())
+            .then(Object.values)
+            .then(
+                (result) => {
+                    this.setState({
+                        isLoaded: true,
+                        items: result
+                    })
+                },
+                (error) => {
+                    this.setState({
+                        isLoaded: true,
+                        error
+                    });
+                }
+            )
+    }
+
+
+    renderBody = () => {
+        const {error, isLoaded, items} = this.state;
+        if (error) {
+            return <div> Error: {error.message}</div>;
+        } else if (!isLoaded) {
+            return <div>Loading... </div>;
+        } else {
+            items.sort(sortByBestRatingValue)
+            this.state.items.splice(10, (items.length + 10))
+            console.log(this.state.items)
+            return (
+                <ItemsList items={items}/>
+            );
+        }
     };
 
-    fetchData = (fetchItems) => {
-        fetch(url)
-        .then(response => response.json())
-        .then(Object.values)
-        .then(fetchedItems => {
-            this.setState({
-                fetchedItems
-            })
-        })
-    };
     render() {
-        const { fetchedItems } = this.state
-        return(
+        return (
             <div>
                 <h2>Best Movies</h2>
-                <FetchForm onClick={this.fetchData} />
-                <div>
-                    {fetchedItems.map(({thumbnail, name, rating}) => (
-                        <ItemsList key={thumbnail}
-                                   thumbnail={thumbnail}
-                                   name={name}
-                                   rating={rating} />
-                    ))}
-                </div>
+                {this.renderBody()}
+
             </div>
         )
     }
