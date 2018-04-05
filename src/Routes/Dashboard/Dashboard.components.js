@@ -31,7 +31,7 @@ const Dashboard = () => (
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} lg={6} className="pie-chart">
+                <Col xs={12} lg={6}>
                     <TwoLevelPieChart/>
                 </Col>
                 <Col xs={12} lg={6}>

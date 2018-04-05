@@ -22,7 +22,7 @@ const renderCustomizedLabel = ({cx, cy, midAngle, innerRadius, outerRadius, perc
 
 export const TwoLevelPieChart = () => {
     return (
-        <ResponsiveContainer width={300} height={300}>
+        <ResponsiveContainer width={300} height={300} className="pie-chart">
             <PieChart data={data01}>
                 <Pie dataKey='value' data={data01} cx={200} cy={200} outerRadius={60} fill="#8884d8"
                      label={renderCustomizedLabel}/>
@@ -33,7 +33,7 @@ export const TwoLevelPieChart = () => {
 
 export const SameDataComposedChart = () => {
     return (
-        <ResponsiveContainer width={700} height={300}>
+        <ResponsiveContainer width={700} height={300} className='barchart'>
             <BarChart data={data}>
                 <CartesianGrid strokeDasharray="3 3"/>
                 <XAxis dataKey="name">
