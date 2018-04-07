@@ -55,7 +55,6 @@ class BestMovies extends PureComponent {
             <div>
                 <h2>Best Movies</h2>
                 {this.renderBody()}
-
             </div>
         )
     }
