@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import ItemsList from '../../Components/ItemList';
 import { sortByWorstRatingValue } from "../../utils";
+import SortSelect from '../../Components/SortSelect/SortSelect';
 import './WorstMovies.style.css';
 
 const url = 'https://gitfilm-api.firebaseio.com/movies.json'
@@ -41,7 +42,7 @@ class WorstMovies extends PureComponent {
             return <div>Loading... </div>;
         } else {
             items.sort(sortByWorstRatingValue);
-            this.state.items.splice(10, (items.length + 10));
+            this.state.items.splice(50, (items.length + 50));
             return (
                 <ItemsList items={items.sort(sortByWorstRatingValue)}/>
             );
@@ -52,6 +53,7 @@ class WorstMovies extends PureComponent {
         return (
             <div>
                 <h2>Worst Movies</h2>
+                <SortSelect />
                 {this.renderBody()}
             </div>
         )
