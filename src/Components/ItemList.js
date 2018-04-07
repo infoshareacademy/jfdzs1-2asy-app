@@ -2,18 +2,26 @@ import React, { Component } from 'react';
 
 class ItemsList extends Component {
     render() {
-        const { thumbnail, name, rating } = this.props
         return (
-          <div>
-              <div>
-                  {thumbnail ? <img src={thumbnail} alt="" /> :
-                           <span>NO IMAGE</span>
-                  }
-              </div>
-              <div><h4>Tytuł: {name}</h4></div>
-              <div><h4>Rating: {rating}</h4></div>
-          </div>
-        )
+            <div>
+            {this.props.items.map(item => (
+                <div key={item.Title}>
+                    <div><h4>{item.Title}</h4></div>
+                    <div>
+                        {item.Poster ? <img src={item.Poster} alt="" /> :
+                            <span>NO IMAGE</span>
+
+                        }
+
+                    </div>
+                    <div><h4>Imdb Rating: {item.imdbRating}</h4></div>
+                    <div><h4>Imdb Votes: {item.imdbVotes}</h4></div>
+                    {/*//TODO - ADD ROTTEN TOMATOES*/}
+                    <div><h4>Metacritic: {item.Metascore}</h4></div><br />
+                </div>
+            ))}
+            </div>
+        );
     }
 }
 
