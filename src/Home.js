@@ -18,7 +18,7 @@ class Home extends PureComponent {
                 <BrowserRouter>
                     <div className="Home">
                         <Navigation/>
-                        <Route path='/dashboard' component={Dashboard}/>
+                        <Route exact path='/' component={Dashboard}/>
                         <Route path='/favourite' component={FavouriteMovies}/>
                         <Route path='/search' component={SearchMovies}/>
                         <Route path='/best' component={BestMovies}/>
