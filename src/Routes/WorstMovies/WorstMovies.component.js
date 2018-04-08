@@ -1,8 +1,9 @@
 import React, { PureComponent } from 'react';
 import ItemsList from '../../Components/ItemList';
-import { sortByWorstRatingValue } from "../../utils";
+import { sortByValue } from "../../utils";
 import SortSelect from '../../Components/SortSelect/SortSelect';
 import './WorstMovies.style.css';
+import _ from 'lodash';
 
 const url = 'https://gitfilm-api.firebaseio.com/movies.json'
 class WorstMovies extends PureComponent {
@@ -41,19 +42,34 @@ class WorstMovies extends PureComponent {
         } else if (!isLoaded) {
             return <div>Loading... </div>;
         } else {
-            items.sort(sortByWorstRatingValue);
-            this.state.items.splice(50, (items.length + 50));
+            let sortedItems = sortByValue(items, "imdbRating")
+
+
+            sortedItems.splice(50, (items.length + 50))
+
+            sortedItems = _.orderBy(sortedItems, ["imdbRating"], ['asc'])
+            console.log(sortedItems)
             return (
-                <ItemsList items={items.sort(sortByWorstRatingValue)}/>
+                <ItemsList items={sortedItems}/>
             );
         }
     };
+
+    onChangeSortBy = (sortBy) => {
+        const items = this.state.items
+        let sortedItems = sortByValue(items, sortBy)
+        this.setState({
+        items: sortedItems
+        })
+    }
+
+
 
     render() {
         return (
             <div>
                 <h2>Worst Movies</h2>
-                <SortSelect />
+                <SortSelect onChange={this.onChangeSortBy} />
                 {this.renderBody()}
             </div>
         )

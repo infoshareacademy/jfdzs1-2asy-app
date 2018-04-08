@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 
+
 class SortSelect extends Component {
+    change = (e) => {
+        this.props.onChange(e.target.value)
+    }
+
     render() {
         return(
             <div>
-                <select className="custom-select">
+                <select onChange={this.change} className="custom-select">
                     <option value="0">Sort By:</option>
-                    <option value="1">iMDB Rating</option>
-                    <option value="2">Released Date</option>
+                    <option value="imdbRating">iMDB Rating</option>
+                    <option value="Year">Released Date</option>
                 </select>
             </div>
         )
