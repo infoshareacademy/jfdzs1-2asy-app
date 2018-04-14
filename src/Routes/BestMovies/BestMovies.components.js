@@ -53,7 +53,6 @@ class BestMovies extends PureComponent {
         e.preventDefault();
         this.state.items.sort(sortDate)
         console.log(this.state.items)
-        return <ItemsList items={this.state.items}/>
     }
 
     sortByRating = (e) => {
