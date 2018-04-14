@@ -1,8 +1,7 @@
 import React, { PureComponent } from 'react';
 import ItemsList from '../../Components/ItemList';
 import './BestMovies.style.css';
-import SortSelect from '../../Components/SortSelect/SortSelect';
-import { sortByBestRatingValue } from "../../utils";
+import { sortByBestRatingValue, sortDate } from "../../utils";
 
 const url = 'https://gitfilm-api.firebaseio.com/movies.json'
 class BestMovies extends PureComponent {
@@ -41,7 +40,6 @@ class BestMovies extends PureComponent {
         } else if (!isLoaded) {
             return <div>Loading... </div>;
         } else {
-
             items.sort(sortByBestRatingValue)
             this.state.items.splice(50, (items.length + 50))
             console.log(this.state.items)
@@ -51,11 +49,28 @@ class BestMovies extends PureComponent {
         }
     };
 
+    sortByDate = (e) => {
+        e.preventDefault();
+        this.state.items.sort(sortDate)
+        console.log(this.state.items)
+        return <ItemsList items={this.state.items}/>
+    }
+
+    sortByRating = (e) => {
+        e.preventDefault();
+        this.state.items.sort(sortByBestRatingValue)
+        console.log(this.state.items)
+    }
+
+
     render() {
         return (
             <div>
                 <h2>Best Movies</h2>
-                <SortSelect />
+                <div>
+                    <button onClick={this.sortByDate}>sort by date</button>
+                    <button onClick={this.sortByRating}>sort by rating</button>
+                </div>
                 {this.renderBody()}
             </div>
         )

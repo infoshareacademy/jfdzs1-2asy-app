@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import ItemsList from '../../Components/ItemList';
-import { sortByWorstRatingValue } from "../../utils";
-import SortSelect from '../../Components/SortSelect/SortSelect';
+import {sortByWorstRatingValue, sortDate} from "../../utils";
 import './WorstMovies.style.css';
 
 const url = 'https://gitfilm-api.firebaseio.com/movies.json'
@@ -49,11 +48,24 @@ class WorstMovies extends PureComponent {
         }
     };
 
+    sortByDate = (e) => {
+        e.preventDefault();
+        this.state.items.sort(sortDate)
+        console.log(this.state.items)
+    }
+
+    sortByRating = (e) => {
+        e.preventDefault();
+        this.state.items.sort(sortByWorstRatingValue)
+        console.log(this.state.items)
+    }
+
     render() {
         return (
             <div>
                 <h2>Worst Movies</h2>
-                <SortSelect />
+                <button onClick={this.sortByDate}>sort by date</button>
+                <button onClick={this.sortByRating}>sort by rating</button>
                 {this.renderBody()}
             </div>
         )

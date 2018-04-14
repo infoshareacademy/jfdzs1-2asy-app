@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
+import {sortByDate} from "../../utils";
 
 class SortSelect extends Component {
+
+    sortByDate = (e) => {
+        e.preventDefault();
+        console.log("click to sort")
+
+
+}
+    sortByRating = (e) => {
+        e.preventDefault();
+        console.log("click to sort")
+    }
+
     render() {
         return(
             <div>
-                <select className="custom-select">
-                    <option value="0">Sort By:</option>
-                    <option value="1">iMDB Rating</option>
-                    <option value="2">Released Date</option>
-                </select>
+                <button onClick={this.sortByDate}>sort by date</button>
+                <button onClick={this.sortByRating}>sort by rating</button>
             </div>
         )
     }
