@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import ItemsList from '../../Components/ItemList';
 import './BestMovies.style.css';
-import { sortByBestRatingValue } from "../../utils";
+import { sortByBestRatingValue, sortDate } from "../../utils";
 
 const url = 'https://gitfilm-api.firebaseio.com/movies.json'
 class BestMovies extends PureComponent {
@@ -21,8 +21,8 @@ class BestMovies extends PureComponent {
                 (result) => {
                     this.setState({
                         isLoaded: true,
-                        items: result
-                    });
+                        items: result.sort(sortByBestRatingValue)
+                    })
                 },
                 (error) => {
                     this.setState({
@@ -33,26 +33,45 @@ class BestMovies extends PureComponent {
             )
     }
 
-
     renderBody = () => {
         const {error, isLoaded, items} = this.state;
         if (error) {
             return <div> Error: {error.message}</div>;
-        } else if (!isLoaded) {
+        }
+        if (!isLoaded) {
             return <div>Loading... </div>;
         } else {
-            items.sort(sortByBestRatingValue)
-            this.state.items.splice(10, (items.length + 10))
+            this.state.items.splice(50, (items.length + 50))
             return (
                 <ItemsList items={items}/>
             );
         }
     };
 
+    sortByDate = (e) => {
+        const _items = [...this.state.items.sort(sortDate)]
+        e.preventDefault();
+        this.setState({
+            items: _items
+        })
+    }
+
+    sortByRating = (e) => {
+        const _items = [...this.state.items.sort(sortByBestRatingValue)]
+        e.preventDefault();
+        this.setState({
+            items: _items
+        })
+    }
+
     render() {
         return (
             <div>
                 <h2>Best Movies</h2>
+                <div>
+                    <button onClick={this.sortByDate}>sort by date</button>
+                    <button onClick={this.sortByRating}>sort by rating</button>
+                </div>
                 {this.renderBody()}
             </div>
         )
