@@ -16,10 +16,10 @@
         return 0
     };
     export const sortDate = (a, b) => {
-        if (a.Year > b.Year) {
-            return 1
-        } else if (a.Year < b.Year) {
-            return -1
-        }
+        const isAfter = a.Year > b.Year;
+        const isBefore = a.Year < b.Year;
+
+        if (isAfter) return 1
+        if (isBefore) return -1
         return 0
     };

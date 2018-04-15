@@ -37,7 +37,8 @@ class WorstMovies extends PureComponent {
         const {error, isLoaded, items} = this.state;
         if (error) {
             return <div> Error: {error.message}</div>;
-        } else if (!isLoaded) {
+        }
+        if (!isLoaded) {
             return <div>Loading... </div>;
         } else {
             this.state.items.splice(50, (items.length + 50));

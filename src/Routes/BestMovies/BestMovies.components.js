@@ -37,11 +37,11 @@ class BestMovies extends PureComponent {
         const {error, isLoaded, items} = this.state;
         if (error) {
             return <div> Error: {error.message}</div>;
-        } else if (!isLoaded) {
+        }
+        if (!isLoaded) {
             return <div>Loading... </div>;
         } else {
             this.state.items.splice(50, (items.length + 50))
-            console.log(this.state.items)
             return (
                 <ItemsList items={items}/>
             );
@@ -63,7 +63,6 @@ class BestMovies extends PureComponent {
             items: _items
         })
     }
-
 
     render() {
         return (

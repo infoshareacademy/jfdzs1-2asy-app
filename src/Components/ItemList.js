@@ -9,9 +9,9 @@ class ItemsList extends Component {
                 <div key={item.Title} className="item">
                     <div><h4>{item.Title}</h4></div>
                     <div>
-                            {item.Poster ? <img src={item.Poster} alt="" /> :
-                                <span>NO IMAGE</span>
-                            }
+                        {item.Poster ? <img src={item.Poster} alt="" /> :
+                            <span>NO IMAGE</span>
+                        }
                     </div>
                     <div><h5>Genre: {item.Genre}</h5></div>
                     <div><h5>Released Year: {item.Year}</h5></div>
