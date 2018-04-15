@@ -21,7 +21,7 @@ class BestMovies extends PureComponent {
                 (result) => {
                     this.setState({
                         isLoaded: true,
-                        items: result
+                        items: result.sort(sortByBestRatingValue)
                     })
                 },
                 (error) => {
@@ -40,7 +40,6 @@ class BestMovies extends PureComponent {
         } else if (!isLoaded) {
             return <div>Loading... </div>;
         } else {
-            items.sort(sortByBestRatingValue)
             this.state.items.splice(50, (items.length + 50))
             console.log(this.state.items)
             return (
@@ -50,15 +49,19 @@ class BestMovies extends PureComponent {
     };
 
     sortByDate = (e) => {
+        const _items = [...this.state.items.sort(sortDate)]
         e.preventDefault();
-        this.state.items.sort(sortDate)
-        console.log(this.state.items)
+        this.setState({
+            items: _items
+        })
     }
 
     sortByRating = (e) => {
+        const _items = [...this.state.items.sort(sortByBestRatingValue)]
         e.preventDefault();
-        this.state.items.sort(sortByBestRatingValue)
-        console.log(this.state.items)
+        this.setState({
+            items: _items
+        })
     }
 
 

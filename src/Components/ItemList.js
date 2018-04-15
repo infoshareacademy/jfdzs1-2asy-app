@@ -14,7 +14,7 @@ class ItemsList extends Component {
                             }
                     </div>
                     <div><h5>Genre: {item.Genre}</h5></div>
-                    <div><h5>Released Date: {item.Released}</h5></div>
+                    <div><h5>Released Year: {item.Year}</h5></div>
                     <div><h5>Imdb Rating: {item.imdbRating}</h5></div>
                     <div><h5>Imdb Votes: {item.imdbVotes}</h5></div>
                     <div>{item.Ratings.map(i => (
